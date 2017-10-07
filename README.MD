@@ -1,0 +1,3 @@
+# nightcrawler.js
+
+A NEW TEXT ANIMATION LIBRARY
