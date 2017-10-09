@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  color: #fff;
+  padding-top: 2em;
+  font-size: 5em;
+  text-align: center;
+  letter-spacing: .1em;
+}
+
+.port {
+  animation: animation 2s ease-in-out infinite alternate; 
+}
+ 
+@keyframes animation
+{
+0% {
+  text-shadow: 0 0 10px #303030,
+  10px -10px 30px #383838,
+  -20px -20px 40px 	#404040,
+  20px -40px 50px #484848,
+  -20px -60px 60px #505050,
+  0 -80px 70px #973716,
+  10px -90px 80px #606060,
+  5px 9px 2px  #585858,
+  0px 16px 7px   #585858;
+  opacity: 0;
+  }
+100% {
+  text-shadow: 0 0 10px #696969,
+  10px -10px 30px #707070,
+  -20px -20px 40px #989898,
+  22px -42px 60px #787878,
+  -22px -58px 50px #909090,
+  0 -82px 80px #888888,
+  10px -90px  80px  #808080,
+  10px -130px 80px #606060,
+  5px 9px 2px  #585858,
+  0px 16px 7px #585858;
+  opacity: 1
+  }
